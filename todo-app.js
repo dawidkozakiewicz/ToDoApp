@@ -25,7 +25,7 @@ document.querySelector('body').appendChild(summary)
 
 todos.forEach(function (todo) {
     const p = document.createElement('p')
-    p.textContent = todo.text
+    p.textContent = todo.text 
     document.querySelector('body').appendChild(p)
 })
 
